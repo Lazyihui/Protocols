@@ -1,15 +1,16 @@
 ﻿using System;
+using UnityEngine;
 
 
 namespace MyTelepathy {
-    public class MyTelepathy {
-        
+    public class Program {
+
         // public static void Main(string[] args) {
         //     Console.WriteLine("Hello, World!");
         // }
 
         public void Start() {
-            Console.WriteLine("Starting MyTelepathy...");
+            Debug.Log("Program Start");
         }
 
     }
