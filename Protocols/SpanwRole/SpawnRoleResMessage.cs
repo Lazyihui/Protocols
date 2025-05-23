@@ -7,11 +7,8 @@ namespace MyTelepathy {
 
     public struct SpawnRoleResMessage {
         public RoleType roleType;
-
         public string roleName;
-
         public Vector2 pos;
-
 
     }
 
