@@ -18,6 +18,9 @@ namespace MyTelepathy {
             {typeof(SpawnBulletReqMessage), MessageConst.SpawnBullet_Req},
             {typeof(SpawnBulletResMessage), MessageConst.SpawnBullet_Res},
             {typeof(SpawnBulletBroMessage), MessageConst.SpawnBullet_Bro},
+            {typeof(BulletMoveReqMessage), MessageConst.MoveBullet_Req},
+            {typeof(BulletMoveResMessage), MessageConst.MoveBullet_Res},
+            {typeof(BulletMoveBroMessage), MessageConst.MoveBullet_Bro},
         };
 
 

@@ -13,6 +13,9 @@ namespace MyTelepathy {
         public const int SpawnBullet_Req = 40;  // 客户端→服务端的子弹请求
         public const int SpawnBullet_Res = 41;  // 服务端→客户端的子弹响应
         public const int SpawnBullet_Bro = 42;  // 服务端→客户端的子弹广播
+        public const int MoveBullet_Req = 50;  // 客户端→服务端的子弹移动请求
+        public const int MoveBullet_Res = 51;  // 服务端→客户端的子弹移动响应
+        public const int MoveBullet_Bro = 52;  // 服务端→客户端的子弹移动广播
 
     }
 }
