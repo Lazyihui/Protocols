@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Game_Client {
+namespace MyTelepathy {
 
     public class SpawnBulletBroMessage {
         public Vector3 pos;

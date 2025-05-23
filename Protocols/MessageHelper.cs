@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
+using MyTelepathy;
 
 namespace MyTelepathy {
     public static class MessageHelper {
@@ -13,7 +14,10 @@ namespace MyTelepathy {
             { typeof(TestReqMessage), MessageConst.Test_Req },
             {typeof(MoveReqMessage), MessageConst.Move_Req },
             {typeof(MoveResMessage), MessageConst.Move_res },
-            {typeof(MoveBroMessage),MessageConst.Move_Bro}
+            {typeof(MoveBroMessage),MessageConst.Move_Bro},
+            {typeof(SpawnBulletReqMessage), MessageConst.SpawnBullet_Req},
+            {typeof(SpawnBulletResMessage), MessageConst.SpawnBullet_Res},
+            {typeof(SpawnBulletBroMessage), MessageConst.SpawnBullet_Bro},
         };
 
 
