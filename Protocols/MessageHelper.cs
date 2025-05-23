@@ -21,6 +21,9 @@ namespace MyTelepathy {
             {typeof(BulletMoveReqMessage), MessageConst.MoveBullet_Req},
             {typeof(BulletMoveResMessage), MessageConst.MoveBullet_Res},
             {typeof(BulletMoveBroMessage), MessageConst.MoveBullet_Bro},
+            {typeof(BulletDestoryReqMessage), MessageConst.BulletDestory_Req},
+            {typeof(BulletDestoryResMessage), MessageConst.BulletDestory_Res},
+            {typeof(BulletDestoryBroMessage), MessageConst.BulletDestory_Bro},
         };
 
 
