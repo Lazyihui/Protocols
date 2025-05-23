@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace MyTelepathy {
 
-    public class SpawnBulletReqMessage {
+    public struct SpawnBulletReqMessage {
         public Transform rootPos;
         public Vector3 pos;
     }
