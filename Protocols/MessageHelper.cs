@@ -11,16 +11,20 @@ namespace MyTelepathy {
             { typeof(SpawnRoleReqMessage), MessageConst.SpawnRole_Req },
             { typeof(SpawnRoleResMessage), MessageConst.SpawnRole_Res },
             { typeof(SpawnRoleBroMessage), MessageConst.SpawnRole_Bro },
+
             { typeof(TestReqMessage), MessageConst.Test_Req },
             {typeof(MoveReqMessage), MessageConst.Move_Req },
             {typeof(MoveResMessage), MessageConst.Move_res },
             {typeof(MoveBroMessage),MessageConst.Move_Bro},
-            {typeof(SpawnBulletReqMessage), MessageConst.SpawnBullet_Req},
-            {typeof(SpawnBulletResMessage), MessageConst.SpawnBullet_Res},
-            {typeof(SpawnBulletBroMessage), MessageConst.SpawnBullet_Bro},
-            {typeof(BulletMoveReqMessage), MessageConst.MoveBullet_Req},
-            {typeof(BulletMoveResMessage), MessageConst.MoveBullet_Res},
-            {typeof(BulletMoveBroMessage), MessageConst.MoveBullet_Bro},
+
+            {typeof(SpawnBulletReqMessage), MessageConst.BulletSpawn_Req},
+            {typeof(SpawnBulletResMessage), MessageConst.BulletSpawn_Res},
+            {typeof(SpawnBulletBroMessage), MessageConst.BulletSpawn_Bro},
+
+            {typeof(BulletMoveReqMessage), MessageConst.BulletMove_Req},
+            {typeof(BulletMoveResMessage), MessageConst.BulletMove_Res},
+            {typeof(BulletMoveBroMessage), MessageConst.BulletMove_Bro},
+
             {typeof(BulletDestoryReqMessage), MessageConst.BulletDestory_Req},
             {typeof(BulletDestoryResMessage), MessageConst.BulletDestory_Res},
             {typeof(BulletDestoryBroMessage), MessageConst.BulletDestory_Bro},
