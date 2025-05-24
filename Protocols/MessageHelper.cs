@@ -74,6 +74,7 @@ namespace MyTelepathy {
             } else {
                 int typeID = ReadHeader(data);
                 if (typeID != GetTypeID<T>()) {
+                    
                     Debug.LogError("TypeID not match: " + typeID + " " + GetTypeID<T>());
                     return default;
                 } else {
