@@ -1,6 +1,6 @@
 using System;
 
-namespace ServerMain {
+namespace MyTelepathy {
 
     public class IDServer {
         public int roleID;
