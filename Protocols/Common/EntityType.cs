@@ -1,6 +1,6 @@
 using System;
 
-namespace ServerMain {
+namespace MyTelepathy {
 
     public enum EntityType {
         None,

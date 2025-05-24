@@ -4,7 +4,8 @@ using UnityEngine;
 namespace MyTelepathy {
 
     public struct BulletMoveReqMessage {
-        public int bulletID;
+        public IDSignature iDSignature;
+
         public Vector3 position;
     }
 }

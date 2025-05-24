@@ -2,7 +2,8 @@
 namespace MyTelepathy {
 
     public struct BulletDestoryResMessage {
-        public int bulletID;
+        public IDSignature iDSignature;
+
 
     }
 }

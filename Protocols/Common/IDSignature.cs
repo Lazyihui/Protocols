@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace ServerMain {
+namespace MyTelepathy {
 
     [Serializable]
     [StructLayout(LayoutKind.Explicit)] // 叠加
