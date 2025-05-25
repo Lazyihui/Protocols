@@ -28,6 +28,10 @@ namespace MyTelepathy {
             {typeof(BulletDestoryReqMessage), MessageConst.BulletDestory_Req},
             {typeof(BulletDestoryResMessage), MessageConst.BulletDestory_Res},
             {typeof(BulletDestoryBroMessage), MessageConst.BulletDestory_Bro},
+
+            {typeof(StuffSpawnReqMessage), MessageConst.StuffSpawn_Req},
+            {typeof(StuffSpawnResMessage), MessageConst.StuffSpawn_Res},
+            {typeof(StuffSpawnBroMessage), MessageConst.StuffSpawn_Bro},
         };
 
 
@@ -74,7 +78,7 @@ namespace MyTelepathy {
             } else {
                 int typeID = ReadHeader(data);
                 if (typeID != GetTypeID<T>()) {
-                    
+
                     Debug.LogError("TypeID not match: " + typeID + " " + GetTypeID<T>());
                     return default;
                 } else {

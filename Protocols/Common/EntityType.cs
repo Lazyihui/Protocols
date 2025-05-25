@@ -9,9 +9,9 @@ namespace MyTelepathy {
 
         Bullet,
 
-        Skillor,//技能
-
         Tower,
+
+        Stuff,
 
     }
 

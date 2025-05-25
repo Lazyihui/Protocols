@@ -19,5 +19,9 @@ namespace MyTelepathy {
         public const int BulletDestory_Req = 60;
         public const int BulletDestory_Res = 61;
         public const int BulletDestory_Bro = 62;
+
+        public const int StuffSpawn_Req = 70;
+        public const int StuffSpawn_Res = 71;
+        public const int StuffSpawn_Bro = 72;
     }
 }

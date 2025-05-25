@@ -6,6 +6,8 @@ namespace MyTelepathy {
         public int roleID;
         public int bulletID;
 
+        public int StuffID;
+
         public IDServer() {
             roleID = 0;
         }
@@ -15,6 +17,9 @@ namespace MyTelepathy {
         }
         public int PickBulletID() {
             return ++bulletID;
+        }
+        public int PickStuffID() {
+            return ++StuffID;
         }
     }
 }
