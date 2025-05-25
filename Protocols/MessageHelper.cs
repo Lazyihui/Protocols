@@ -32,6 +32,10 @@ namespace MyTelepathy {
             {typeof(StuffSpawnReqMessage), MessageConst.StuffSpawn_Req},
             {typeof(StuffSpawnResMessage), MessageConst.StuffSpawn_Res},
             {typeof(StuffSpawnBroMessage), MessageConst.StuffSpawn_Bro},
+
+            {typeof(StuffDestoryReqMessage), MessageConst.StuffDestory_Req},
+            {typeof(StuffDestoryResMessage), MessageConst.StuffDestory_Res},
+            {typeof(StuffDestoryBroMessage), MessageConst.StuffDestory_Bro},
         };
 
 
