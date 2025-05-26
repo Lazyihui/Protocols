@@ -27,5 +27,10 @@ namespace MyTelepathy {
         public const int StuffDestory_Req = 80;
         public const int StuffDestory_Res = 81;
         public const int StuffDestory_Bro = 82;
+
+        // 
+        public const int StuffMove_Req = 90; // 客户端→服务端的物品移动请求
+        public const int StuffMove_Res = 91; // 服务端→客户端的物品移动响应
+        public const int StuffMove_Bro = 92; // 服务端→客户端的物品移动广播
     }
 }
