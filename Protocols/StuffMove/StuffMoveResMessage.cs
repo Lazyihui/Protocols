@@ -5,11 +5,11 @@ using UnityEngine;
 namespace MyTelepathy {
 
     public struct StuffMoveResMessage {
-        public IDSignature iDSignature;
+        public int idSig;
         public Vector3 pos;
 
-        public void Init(IDSignature iDSignature, Vector3 pos) {
-            this.iDSignature = iDSignature;
+        public void Init(int iDSignature, Vector3 pos) {
+            this.idSig = iDSignature;
             this.pos = pos;
         }
     }

@@ -8,5 +8,6 @@ namespace MyTelepathy {
         public Transform rootPos;
         public Vector3 pos;
         public Vector3 dir;
+
     }
 }

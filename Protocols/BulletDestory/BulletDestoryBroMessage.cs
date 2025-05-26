@@ -2,9 +2,9 @@
 namespace MyTelepathy {
 
     public struct BulletDestoryBroMessage {
-        public IDSignature idSig;
+        public int idSig;
 
-        public void Init(IDSignature idSig) {
+        public void Init(int idSig) {
             this.idSig = idSig;
         }
 

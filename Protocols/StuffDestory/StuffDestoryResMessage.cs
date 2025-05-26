@@ -4,7 +4,10 @@ using UnityEngine;
 namespace MyTelepathy{
     
     public struct StuffDestoryResMessage {
-        public IDSignature iDSignature;
+        public int iDSignature;
+        public void Init(int iDSignature) {
+            this.iDSignature = iDSignature;
+        }
         
     }
 }
