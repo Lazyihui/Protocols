@@ -10,6 +10,8 @@ namespace MyTelepathy {
 
         public IDServer() {
             roleID = 0;
+            bulletID = 0;
+            StuffID = 0;
         }
 
         public int PickRoleID() {
