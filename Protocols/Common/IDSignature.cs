@@ -5,7 +5,7 @@ namespace MyTelepathy {
 
     [Serializable]
     [StructLayout(LayoutKind.Explicit)] // 叠加
-    public struct IDSignature {
+    public struct IDSignature : IEquatable<IDSignature> {
 
         [FieldOffset(0)]
         [UnityEngine.HideInInspector]
@@ -48,6 +48,9 @@ namespace MyTelepathy {
             return value.GetHashCode();
         }
 
+        public bool Equals(IDSignature other) {
+            return this.value == other.value;
+        }
     }
 
 }

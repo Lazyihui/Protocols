@@ -4,14 +4,9 @@ namespace MyTelepathy {
 
     public enum EntityType {
         None,
-
-        Role,
-
-        Bullet,
-
-        Tower,
-
-        Stuff,
+        Role = 1,
+        Bullet = 2,
+        Stuff = 3,
 
     }
 
