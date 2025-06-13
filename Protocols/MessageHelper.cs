@@ -39,6 +39,10 @@ namespace MyTelepathy {
             {typeof(StuffMoveReqMessage), MessageConst.StuffMove_Req},
             {typeof(StuffMoveResMessage), MessageConst.StuffMove_Res},
             {typeof(StuffMoveBroMessage), MessageConst.StuffMove_Bro},
+
+            {typeof(RoleDestoryReqMessage), MessageConst.RoleDestory_Req},  
+            {typeof(RoleDestoryResMessage), MessageConst.RoleDestory_Res},
+            {typeof(RoleDestoryBroMessage), MessageConst.RoleDestory_Bro},
         };
 
 

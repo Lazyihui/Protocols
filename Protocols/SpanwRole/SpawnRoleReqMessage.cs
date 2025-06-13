@@ -10,7 +10,6 @@ namespace MyTelepathy {
         public string roleName;
         public Vector2 pos;
 
-        
     }
 
 }
