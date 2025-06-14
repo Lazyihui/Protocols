@@ -40,7 +40,7 @@ namespace MyTelepathy {
             {typeof(StuffMoveResMessage), MessageConst.StuffMove_Res},
             {typeof(StuffMoveBroMessage), MessageConst.StuffMove_Bro},
 
-            {typeof(RoleDestoryReqMessage), MessageConst.RoleDestory_Req},  
+            {typeof(RoleDestoryReqMessage), MessageConst.RoleDestory_Req},
             {typeof(RoleDestoryResMessage), MessageConst.RoleDestory_Res},
             {typeof(RoleDestoryBroMessage), MessageConst.RoleDestory_Bro},
         };
@@ -55,7 +55,7 @@ namespace MyTelepathy {
                 return -1;
             }
         }
-
+        // TODO:要改成用对象池
         public static byte[] ToData<T>(T msg) {
             string str = JsonUtility.ToJson(msg);
             int typeID = GetTypeID<T>();
@@ -71,7 +71,6 @@ namespace MyTelepathy {
             Buffer.BlockCopy(msg_data, 0, data, msg_header.Length + msg_length.Length, msg_data.Length);
 
             return data;
-
         }
 
         public static int ReadHeader(byte[] data) {
