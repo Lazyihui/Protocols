@@ -55,6 +55,7 @@ namespace MyTelepathy {
                 return -1;
             }
         }
+        
         // TODO:要改成用对象池
         public static byte[] ToData<T>(T msg) {
             string str = JsonUtility.ToJson(msg);
